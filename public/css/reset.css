@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #333333;
+    font-size: 14px;
+}
+body{
+    font-family: "Microsoft YaHei","寰蒋闆呴粦",Helvetica,"榛戜綋",'SimSun',Arial,Tahoma;
+}
+
+/* 榛樿涓嶈涓嬪垝绾� */
+
+a {
+    text-decoration: none;
+}
+
+
+/* 鎸夐挳鏂囨湰涓嶅彲閫� */
+
+button {
+    user-select: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+/* 鍔犺浇涓嶅嚭鏉ョ殑鍥剧墖涓嶈鏄剧ず鐏拌壊杈规 */
+
+img:not([src]),
+img[src=""] {
+    opacity: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input,
+select,
+button,
+textarea {
+    font-size: 100%;
+    font: inherit;
+    outline:none;
+}
+textarea {
+
+    resize:none;
+    outline:none;
+}
+html,
+body {
+    /*
+height: 100%;
+overflow-x: hidden;
+*/
+}
