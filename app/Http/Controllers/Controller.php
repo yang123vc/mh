@@ -13,7 +13,7 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-     
+
     public function error($message = '操作失败',$code=500)
     {
 

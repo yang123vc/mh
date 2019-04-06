@@ -168,9 +168,9 @@ public function test()
                         if($user->gold - $cartoon_list->pay <0){
                             return "<script>alert('余额不足哦');window.history.go(-1)</script>";
                         }{
-                            $user->update([
-                                'gold'=>$user->gold - $cartoon_list->pay
-                            ]);
+//                            $user->update([
+//                                'gold'=>$user->gold - $cartoon_list->pay
+//                            ]);
                             Footprint::create([
                                 'user_id'=>$user_id,
                                 'cartoon_id'=>$id,
