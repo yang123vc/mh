@@ -48,7 +48,7 @@
             为了更好的为您服务，解决您遇到的问题，或者举报不良漫画，请认真填写以下内容
         </div>
         <div style=" padding:15px; color:red;">
-            也可以联系客服QQ：205417923
+            也可以联系客服QQ群：939884850
         </div>
         {{--<div class="item">--}}
             {{--<input type="text" name="name" placeholder="请输入您的称呼">--}}
