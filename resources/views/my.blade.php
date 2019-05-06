@@ -73,15 +73,15 @@
         @endif
     </div>
     <ul class="mine_content">
-        <li>
-            <figure>
-                <img src="http://m8.hongjingkeji.com/Public/novel/img/mine_top-up.png">
-            </figure>
-            <a href="/recharge">
-                <span>立即充值</span>
-                <span class="iconfont icon-xiangyoujiantou"></span>
-            </a>
-        </li>
+{{--        <li>--}}
+{{--            <figure>--}}
+{{--                <img src="http://m8.hongjingkeji.com/Public/novel/img/mine_top-up.png">--}}
+{{--            </figure>--}}
+{{--            <a href="/recharge">--}}
+{{--                <span>立即充值</span>--}}
+{{--                <span class="iconfont icon-xiangyoujiantou"></span>--}}
+{{--            </a>--}}
+{{--        </li>--}}
         <li>
             <figure>
                 <img src="http://m8.hongjingkeji.com/Public/novel/img/mine_bill.png">
@@ -101,45 +101,18 @@
             {{--</a>--}}
         {{--</li>--}}
 
-        {{--<li>--}}
-            {{--<figure>--}}
-                {{--<img src="http://m8.hongjingkeji.com/Public/novel/img/mine_people_logo.png">--}}
-            {{--</figure>--}}
-            {{--<a href="/index.php?m=&amp;c=My&amp;a=friends">--}}
-                {{--<span>我的好友</span>--}}
-                {{--<span class="iconfont icon-xiangyoujiantou"></span>--}}
-            {{--</a>--}}
-        {{--</li>--}}
-        {{--<li>--}}
-            {{--<figure>--}}
-                {{--<img src="http://m8.hongjingkeji.com/Public/novel/img/mine_gift_box.png">--}}
-            {{--</figure>--}}
-            {{--<a href="/index.php?m=&amp;c=My&amp;a=expense">--}}
-                {{--<span>好友贡献</span>--}}
-                {{--<span class="iconfont icon-xiangyoujiantou"></span>--}}
-            {{--</a>--}}
-        {{--</li>--}}
     </ul>
     <ul class="mine_content mine_content_size">
-        <li>
-            <figure>
-                <img src="http://m8.hongjingkeji.com/Public/novel/img/mine_bill.png">
-            </figure>
-            <a href="/bill/detail">
-                <span>账单明细</span>
-                <span class="iconfont icon-xiangyoujiantou"></span>
-            </a>
-        </li>
-        {{--<li>--}}
-            {{--<figure>--}}
-                {{--<img src="http://m8.hongjingkeji.com/Public/novel/img/mine_gift.png">--}}
-            {{--</figure>--}}
-            {{--<a href="/index.php?m=&amp;c=My&amp;a=withdraw">--}}
-                {{--<span>申请提现</span>--}}
-                {{--<span class="iconfont icon-xiangyoujiantou"></span>--}}
-            {{--</a>--}}
-        {{--</li>--}}
-      {{----}}
+{{--        <li>--}}
+{{--            <figure>--}}
+{{--                <img src="http://m8.hongjingkeji.com/Public/novel/img/mine_bill.png">--}}
+{{--            </figure>--}}
+{{--            <a href="/bill/detail">--}}
+{{--                <span>账单明细</span>--}}
+{{--                <span class="iconfont icon-xiangyoujiantou"></span>--}}
+{{--            </a>--}}
+{{--        </li>--}}
+
         {{--<li>--}}
             {{--<figure>--}}
                 {{--<img src="http://m8.hongjingkeji.com/Public/novel/img/mine_mobile.png">--}}
