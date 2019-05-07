@@ -52,7 +52,7 @@
                     <a href="/cate?cate_id=&is_end=3&is_free=1">
                         <img style="width: 90%;" src="http://m8.hongjingkeji.com//Public/anime/img/1.png" alt="">
 
-                    </a>免费动漫
+                    </a>福利动漫
                 </li>
                 <li>
                     <a href="/poplist">
