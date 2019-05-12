@@ -155,7 +155,7 @@
             <div class="pass" id="pass">
                 <img src="{{asset('/image/icon/password_img3.png')}}">
                 <span class="iconfont icon-yanjing"></span>
-                <input type="password"  id="password" value="" name="password" placeholder="请输入大于5位数的密码">
+                <input type="password"  id="password" value="" name="password" placeholder="请输入密码">
             </div>
             <div class="pass" id="pass1">
                 <img src="{{asset('/image/icon/password_img3.png')}}">
