@@ -69,6 +69,32 @@
         </div>
     </div>
     <!--独家首发-->
+
+    <div class="bg_pad index_product">
+        <div class="index_product_top">
+            <h3>
+                <img src="http://m8.hongjingkeji.com/Public/anime/img/title1.png" style=" height:20px;">
+                新书报道
+                <img src="http://m8.hongjingkeji.com/Public/anime/img/title2.png" style=" height:20px;">
+            </h3>
+
+        </div>
+        <ul class="details_list details_list2">
+            @foreach($cartoons_fours as $cartoons_four)
+                <li>
+                    <a href="/detail/{{$cartoons_four->id}}">
+                        <img src="http://m8.hongjingkeji.com/Public/anime/img/300-150.png" style=" background:url({{$cartoons_four->thumb}}); background-size:cover">
+                        <div class="introduce">
+                            <p class="title">{{$cartoons_four->name}}</p>
+                            <p class="details">{{$cartoons_four->introduce}}</p>
+                        </div>
+                    </a>
+                </li>
+            @endforeach
+        </ul>
+        <!--p class="ending">没有更多了~</p-->
+    </div>
+
     <div class="bg_pad index_product">
         <div class="index_product_top">
             <h3>
@@ -173,30 +199,30 @@
 
     </div>
 
-    <div class="bg_pad index_product">
-        <div class="index_product_top">
-            <h3>
-                <img src="http://m8.hongjingkeji.com/Public/anime/img/title1.png" style=" height:20px;">
-                新书报道
-                <img src="http://m8.hongjingkeji.com/Public/anime/img/title2.png" style=" height:20px;">
-            </h3>
+{{--    <div class="bg_pad index_product">--}}
+{{--        <div class="index_product_top">--}}
+{{--            <h3>--}}
+{{--                <img src="http://m8.hongjingkeji.com/Public/anime/img/title1.png" style=" height:20px;">--}}
+{{--                新书报道--}}
+{{--                <img src="http://m8.hongjingkeji.com/Public/anime/img/title2.png" style=" height:20px;">--}}
+{{--            </h3>--}}
 
-        </div>
-        <ul class="details_list details_list2">
-            @foreach($cartoons_fours as $cartoons_four)
-                <li>
-                    <a href="/detail/{{$cartoons_four->id}}">
-                        <img src="http://m8.hongjingkeji.com/Public/anime/img/300-150.png" style=" background:url({{$cartoons_four->thumb}}); background-size:cover">
-                        <div class="introduce">
-                            <p class="title">{{$cartoons_four->name}}</p>
-                            <p class="details">{{$cartoons_four->introduce}}</p>
-                        </div>
-                    </a>
-                </li>
-            @endforeach
-        </ul>
-        <!--p class="ending">没有更多了~</p-->
-    </div>
+{{--        </div>--}}
+{{--        <ul class="details_list details_list2">--}}
+{{--            @foreach($cartoons_fours as $cartoons_four)--}}
+{{--                <li>--}}
+{{--                    <a href="/detail/{{$cartoons_four->id}}">--}}
+{{--                        <img src="http://m8.hongjingkeji.com/Public/anime/img/300-150.png" style=" background:url({{$cartoons_four->thumb}}); background-size:cover">--}}
+{{--                        <div class="introduce">--}}
+{{--                            <p class="title">{{$cartoons_four->name}}</p>--}}
+{{--                            <p class="details">{{$cartoons_four->introduce}}</p>--}}
+{{--                        </div>--}}
+{{--                    </a>--}}
+{{--                </li>--}}
+{{--            @endforeach--}}
+{{--        </ul>--}}
+{{--        <!--p class="ending">没有更多了~</p-->--}}
+{{--    </div>--}}
 </div>
 
 {{--<div style=" background:#fff; padding-top:20px;">--}}
