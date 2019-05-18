@@ -36,12 +36,13 @@ class HomeController extends Controller
             $count = $user_count.'------ '.$yesterday_user_count.'------ '.$toweek_user_count;
             $content->header('73漫画');
             $content->description('后台管理');
-            $infoBox0 = new InfoBox('今日访问IP', 'users', 'aqua', '/admin/user', $today_ip_count);
+            $infoBox0 = new InfoBox('今日访问IP', 'users', 'aqua', '', $today_ip_count);
             $infoBox = new InfoBox('今日新增用户', 'users', 'aqua', '/admin/user', $today_user_count);
             $infoBox1 = new InfoBox('昨日新增用户', 'users', 'aqua', '/admin/user', $yesterday_user_count);
             $infoBox2 = new InfoBox('本周新增用户', 'users', 'aqua', '/admin/user', $toweek_user_count);
             $infoBox3 = new InfoBox('用户总数', 'users', 'aqua', '/admin/user', $user_count);
             $infoBox4 = new InfoBox('总漫画量', 'book', 'red', '/admin/cartoon', $cartoon_count);
+            $content->body($infoBox0);
             $content->body($infoBox);
             $content->body($infoBox1);
             $content->body($infoBox2);

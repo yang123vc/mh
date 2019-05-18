@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="keyword" content="su73漫画">
+    <meta http-equiv="description" content="su73漫画">
     <link href="{{asset('/css/mui.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('/css/reset.css')}}">
     <link rel="stylesheet" href="{{asset('/css/font_921482_i89ed3fqez.css')}}">
