@@ -20,6 +20,8 @@ class HomeController extends Controller
             $yesterday_date = Carbon::yesterday();
             $today_date = Carbon::today();
 
+            //今日新增用户
+            $today_user_count  =  User::where('created_at','>',date('Y-m-d 00:00:00'))->count();
             //昨日新增用户
             $yesterday_user_count  =  User::whereBetween('created_at',[$yesterday_date,$today_date])->count();
             //本周新增用户
@@ -31,10 +33,12 @@ class HomeController extends Controller
             $count = $user_count.'------ '.$yesterday_user_count.'------ '.$toweek_user_count;
             $content->header('73漫画');
             $content->description('后台管理');
+            $infoBox = new InfoBox('今日新增用户', 'users', 'aqua', '/admin/user', $today_user_count);
             $infoBox1 = new InfoBox('昨日新增用户', 'users', 'aqua', '/admin/user', $yesterday_user_count);
             $infoBox2 = new InfoBox('本周新增用户', 'users', 'aqua', '/admin/user', $toweek_user_count);
             $infoBox3 = new InfoBox('用户总数', 'users', 'aqua', '/admin/user', $user_count);
             $infoBox4 = new InfoBox('总漫画量', 'book', 'red', '/admin/cartoon', $cartoon_count);
+            $content->body($infoBox);
             $content->body($infoBox1);
             $content->body($infoBox2);
             $content->body($infoBox3);
